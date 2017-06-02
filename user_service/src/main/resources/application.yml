@@ -1,0 +1,13 @@
+server:
+  port: 8082
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+      database: MYSQL
+  datasource:
+    url: jdbc:mysql://85.10.205.173:3307/xincheng_user?characterEncoding=UTF-8&useSSL=false
+    username: xinchenguser
+    password: chen2319
+    driver-class-name: com.mysql.jdbc.Driver
